@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2em 1em;
+    border-radius: 15px;
+    place-content: center;
+    margin: 0 auto;
+    width: 375px;
+    background-color: grey;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+section input {
+    grid-column-start: span 4;
+    margin-bottom: 1em;
+}
