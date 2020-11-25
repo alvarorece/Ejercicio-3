@@ -18,3 +18,7 @@ section input {
     grid-column-start: span 4;
     margin-bottom: 1em;
 }
+
+label {
+    visibility: hidden;
+}
