@@ -22,3 +22,7 @@ section input {
 label {
     visibility: hidden;
 }
+
+section header {
+    display: none;
+}
